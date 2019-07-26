@@ -6,8 +6,9 @@ public class tesla {
 
 		// TODO Auto-generated method stub
 		public static void main(String[] args) {
-//			Scanner Tesla = new Scanner(System.in);
-//		
+			Scanner Tesla = new Scanner(System.in);
+
+			
 //			String make= "mercedes";
 //			String model= "Gle 2020";
 //			
@@ -38,6 +39,7 @@ public class tesla {
             double aValue = doublevalue;
             
             System.out.println(aValue);
+            
             
             
 }

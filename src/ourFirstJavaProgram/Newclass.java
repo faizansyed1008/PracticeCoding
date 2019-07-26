@@ -9,8 +9,8 @@ public class Newclass {
 		System.out.println("Forms App");
 		
 	
-	//	System.out.println("Please Enter Your First Name");
-	//  String FirstName = Formsapp.nextLine();
+		System.out.println("Please Enter Your First Name");
+	    String FirstName = Formsapp.nextLine();
 		
 		
 		System.out.println("Please Enter Your Last Name");
@@ -37,10 +37,6 @@ public class Newclass {
 		boolean areyouondrugs = Formsapp.hasNextBoolean();
 		
 		
-		System.out.println("have you ever been envoled in any stupid stuff");
-		String stupidstuff = Formsapp.nextLine();
-		
-		System.out.println("my next car will be" + "tesla" + "model s");
 		
 		
 		
