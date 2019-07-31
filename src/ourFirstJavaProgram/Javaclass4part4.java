@@ -12,9 +12,7 @@ public class Javaclass4part4 {
 		System.out.println("please enter your integer value");
 		
 		int avalue = scanner.nextInt();
-		
-		
-		System.out.println("Please enter your second integer value");
+	    System.out.println("Please enter your second integer value");
 		
 		
 		int bvalue = scanner.nextInt();
