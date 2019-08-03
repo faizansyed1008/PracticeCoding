@@ -33,7 +33,7 @@ public class Newclass {
 		double pleaseenteryourheight = Formsapp.nextDouble();
 		
 		
-		System.out.println("are you on drugs: (True or False");
+		System.out.println("are legal to work in the USA: (True or False");
 		boolean areyouondrugs = Formsapp.hasNextBoolean();
 		
 		
