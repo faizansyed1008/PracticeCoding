@@ -5,19 +5,18 @@ public class Javaclass9part6 {
 	public static void main(String[] args) {
 	
 
-		//array nested Array loop
-		int[][] myNumbers = { {1, 2, 3, 4,}, {5, 6, 7} };
-		
-		for (int i = 0; i < myNumbers.length; ++i) {
+		//two dimensional array
+		int array1[] = {1,2,3, 4};
+		int array2[] = {5,6,7 };
+		int array3[] = {15,16,17 };
+ 		int[][]mynumbers = {array1, array2,array3};
 		 
-		for(int j = 0; j < myNumbers[i].length; ++j) {
+		System.out.println(mynumbers[0][1]);
 	
-			System.out.println(myNumbers[i][j]);
 		
 		
-		}
 		
-		}	
+		
 	
 	
 	
