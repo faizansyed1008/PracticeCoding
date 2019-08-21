@@ -19,6 +19,10 @@ public class Javaclass10part4 {
 		System.out.print(strs[i]);
 	}
 	
+	
+	
+	
+	
 	System.out.println();
 	
 	for (int i : nums) {
