@@ -1,37 +1,61 @@
 package Homework;
 
-public class MethodCalculator {
-	
-	public int Adding(int num1, int num2){
-	
-		int number;
-		number = num1 + num2;
-		
-		return number;
+import java.util.Scanner;
+
+class Calculator {
+	int a, b;
+
+	Calculator(int a, int b) {
+		this.a = a;
+		this.b = b;
 	}
-	
-	public int Subtracting(int num1, int num2){
-	
-		int number;
-		number = num1 - num2;
-		
-		return number;
+
+	int add() {
+		return a + b;
 	}
-	
-	public int Multipling(int num1, int num2){
-	
-		int number;
-		number = num1 * num2;
-		
-		return number;
+
+	int sub() {
+		return a - b;
 	}
-	
-	public int Dividing(int num1, int num2){
-	
-		int number;
-		number = num1 / num2;
-	
-	  return number;
+
+	int multi() {
+		return a * b;
 	}
-	
+
+	int div() {
+		return a / b;
+	}
+
+	public class MethodCalculator {
+	}
+
+	public static void main(String args[]) {
+		Scanner sr = new Scanner(System.in);
+		System.out.print("Enter a : ");
+		int a = sr.nextInt();
+		System.out.print("Enter b : ");
+		int b = sr.nextInt();
+		System.out.print("Enter the operetion (+,-,*,/) : ");
+		String op = sr.next();
+		int c = 0;
+		Calculator obj = new Calculator(a, b);
+		switch (op) {
+		case "+":
+			c = obj.add();
+			break;
+		case "-":
+			c = obj.sub();
+			break;
+		case "*":
+			c = obj.multi();
+			break;
+		case "/":
+			c = obj.div();
+			break;
+		default:
+			System.out.println("Invalid opration code!!");
+		}
+
+	}
+
 }

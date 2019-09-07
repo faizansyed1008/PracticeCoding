@@ -37,7 +37,7 @@ public class Callingmethod {
 		return total;
 	}
 
-	public static long munumbers(long numA, long numB) {
+	public static long mynumbers(long numA, long numB) {
 
 		long total = numA + numB;
 		System.out.println(total);

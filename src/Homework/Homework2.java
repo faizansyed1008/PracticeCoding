@@ -1,4 +1,4 @@
-package ourFirstJavaProgram;
+package Homework;
 
 public class Homework2 {
 

@@ -8,7 +8,7 @@ public class Mycalculator2 {
 	
 		Scanner Mycalculator2 = new Scanner(System.in);
 		
-		System.out.println("My Calculator");
+		System.out.println("<------My Calculator-------->");
 		
 		// You Are Adding 
 		
@@ -20,8 +20,8 @@ public class Mycalculator2 {
 		
 		int Total = firstnumber + secondnumber;
 		
-		System.out.println("Your Adding total is, "+firstnumber+" + "+secondnumber+" ");
-		System.out.println(firstnumber +" + "+secondnumber+" = " +Total);
+		System.out.println("Your total is: "+firstnumber+" + "+secondnumber+" = " +Total);
+		System.out.println("------------------------------------");
 		
 		// You are multiplying
 		
@@ -35,8 +35,8 @@ public class Mycalculator2 {
 		
 		int total = thirdnumber * forthnumber;
 		
-		System.out.println("Your multiplying total is, "+thirdnumber+" x "+forthnumber+" ");
-		System.out.println(thirdnumber +" X "+forthnumber+" = " +total);
+		System.out.println("Your multiplying total is: "+thirdnumber+" x "+forthnumber+" = "+total);
+		System.out.println("--------------------------------------");
 		
         // you are Dividing
 		
@@ -50,8 +50,8 @@ public class Mycalculator2 {
 		
 		double atotal = fifthnumber / sixthnumber;
 		
-		System.out.println("Your Dividing total is, "+fifthnumber+" / " +sixthnumber+" ");
-		System.out.println(fifthnumber +" / "+sixthnumber+ " = " +atotal);
+		System.out.println("Your Dividing total is: "+fifthnumber+" / " +sixthnumber+" = "+atotal);
+		System.out.println("-----------------------------------------");
 		
 		//You Are Deducting
 		
@@ -65,10 +65,11 @@ public class Mycalculator2 {
 		
 		int totaL = seventhnumber - eigthnumber;
 		
-		System.out.println("Your Deduction Total is, "+seventhnumber+ " - "+eigthnumber+ " ");
-		System.out.println(seventhnumber +" - "+eigthnumber+ " = " +totaL);
+		System.out.println("Your Deduction Total is: "+seventhnumber+ " - "+eigthnumber+ " = "+totaL);
+		System.out.println("------------------------------------------");
+	
 		
-	    System.out.println("Thanks for using My Calculator");
+	    System.out.println("Thank You for using My simple Calculator");
 	    
 
 	}
