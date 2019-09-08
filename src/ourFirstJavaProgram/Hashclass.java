@@ -24,8 +24,8 @@ public class Hashclass {
 //		
 //		//to remove all items
 //		capitalCities.clear();
-//		
-//		//to get size
+	
+		//to get size
 //		capitalCities.size();
 
 		for (String a : capitalCities.keySet()) {
