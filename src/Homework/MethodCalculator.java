@@ -29,7 +29,7 @@ class Calculator {
 	public class MethodCalculator {
 	}
 
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		Scanner sr = new Scanner(System.in);
 		System.out.print("Enter a : ");
 		int a = sr.nextInt();
